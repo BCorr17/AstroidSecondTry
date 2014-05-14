@@ -45,6 +45,9 @@ namespace Asteroid_Belt_Assault
         private Vector2 livesLocation = new Vector2(20, 25);
 
 
+        Song song = Content.Load<Song>("@Sound/Song");
+        MediaPlayer.Play(song);
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);

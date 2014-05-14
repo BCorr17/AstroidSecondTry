@@ -76,7 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Sounds\Bangs - My Life Is Hard.mp3">
-      <Name>Bangs - My Life Is Hard</Name>
+      <Name>song</Name>
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
     </Compile>
