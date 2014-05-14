@@ -13,8 +13,8 @@ namespace Asteroid_Belt_Assault
         private int screenWidth = 800;
         private int screenHeight = 600;
         private Random rand;
-        private Color[] colors = { Color.White, Color.Yellow, 
-                           Color.Wheat, Color.WhiteSmoke, 
+        private Color[] colors = { Color.Wheat, Color.Lime, 
+                           Color.Cyan, Color.WhiteSmoke, 
                            Color.SlateGray };
 
         public StarField(
