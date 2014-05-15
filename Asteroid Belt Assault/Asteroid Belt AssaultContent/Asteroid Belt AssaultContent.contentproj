@@ -75,8 +75,8 @@
     <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.XImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Sounds\Bangs - My Life Is Hard.mp3">
-      <Name>song</Name>
+    <Compile Include="Sounds\bangs.mp3">
+      <Name>bangs</Name>
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
     </Compile>

@@ -44,9 +44,9 @@ namespace Asteroid_Belt_Assault
         private Vector2 scoreLocation = new Vector2(20, 10);
         private Vector2 livesLocation = new Vector2(20, 25);
 
-
-        Song song = Content.Load<Song>("@Sound/Song");
-        MediaPlayer.Play(song);
+        protected Song song;
+        protected SpriteFont font;
+       
 
         public Game1()
         {
@@ -78,6 +78,10 @@ namespace Asteroid_Belt_Assault
 
             titleScreen = Content.Load<Texture2D>(@"Textures\TitleScreen");
             spriteSheet = Content.Load<Texture2D>(@"Textures\spriteSheet");
+
+            Song song = Content.Load<Song>(@"Sounds\bangs");  // Put the name of your song in instead of "song_title"
+            MediaPlayer.Play(song);
+
 
             starFields = new List<StarField>();
 
